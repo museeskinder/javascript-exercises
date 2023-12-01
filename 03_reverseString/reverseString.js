@@ -6,6 +6,10 @@ const reverseString = function(string) {
     return reverseResult; 
 };
 
+const reverStringOptimal = (string) => {
+    return string.split(" ").reverse().join(" ");
+}
+
 // Do not edit below this line
 module.exports = reverseString;
 
